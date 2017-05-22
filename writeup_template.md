@@ -66,7 +66,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 The code for this step is contained in the fourth code cell of the IPython notebook.
 
-As a first step, I decided to convert the images to grayscale because ...
+As a first step, I decided to convert the images to grayscale because grayscale help reduce the complexity of the input to NN, so the NN can hold more different inputs. The normalization is also used to reduce the complexity of the input to NN. Also the value for the image pixel is transfered into a range between -0.5 to 0.5. This is very helpful for RELU function, because RELU would not activate for negative value. So the NN could be more powerful in learning.
 
 Here is an example of a traffic sign image before and after grayscaling.
 
